@@ -1,19 +1,19 @@
 # If you are building a simple GitHub user page (https://username.github.io) then use these settings:
-url: "https://acernacho.github.io"
+url: "https://ignacio-arce.github.io"
 baseurl: "/"
 
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: iasoftware
+title: iaSoftware
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
   Contact: "contact.html"
-  Aboutus: "aboutus.html"
+  Aboutus: "about.html"
 
 # Short description of your site
 description: TODO

@@ -1,0 +1,11 @@
+nav-links: Links
+links:
+
+- title: Home
+  url: /
+
+- title: Acerca de
+  url: /about
+
+- title: Contacto
+  url: /contact
