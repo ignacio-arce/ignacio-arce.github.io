@@ -81,3 +81,17 @@ body {
 .hide {
 	opacity: 0;
 }
+
+.aboutme-title {
+	padding-top: 10px;
+	border-bottom: 1px solid #CCC;
+}
+
+.card {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.card-link {
+	float: right;
+}
