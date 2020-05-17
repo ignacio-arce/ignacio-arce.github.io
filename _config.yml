@@ -22,3 +22,5 @@ auto: true
 markdown: kramdown
 permalink: /:year/:month/:title
 rdiscount extensions: [smart]
+
+theme: jekyll-theme-slate
