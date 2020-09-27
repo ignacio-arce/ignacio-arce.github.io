@@ -1,6 +1,5 @@
 body {
   padding: 50px 0px 0px 0px;
-
   z-index: 0;
 }
 
@@ -20,6 +19,11 @@ body {
   min-height: 400px;
 }
 
+a:hover {
+  text-decoration: none;
+  border-bottom: 0px;
+}
+
 .footer {
   color: silver;
   background-color: black;
@@ -29,7 +33,6 @@ body {
 
 .footer a {
   color: dodgerblue;
-  text-decoration: none;
 }
 
 .footer a:hover {
@@ -37,13 +40,18 @@ body {
   color: lightskyblue;
 }
 
+.footer address {
+  line-height: 1.8em;
+}
+
 .jumbotron {
   padding: 70px 30px 70px 30px;
   margin: 0px auto;
   background-color: #000;
   background-attachment: fixed;
-  background-image: url("../../img/jumbotron.png");
+  background-image: url("../../img/jumbotron2.png");
   background-size: cover;
+  min-height: 600px;
   color: floralwhite;
 }
 
@@ -52,6 +60,14 @@ body {
   background-size: cover;
   color: floralwhite;
   opacity: 0.8;
+}
+
+.title {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+.subtitle {
 }
 
 .address {
