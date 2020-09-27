@@ -1,6 +1,5 @@
-<!DOCTYPE HTML>
-
-<html>
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -10,17 +9,18 @@
   <link rel="stylesheet" href="/assets/css/styles.css" />
   {% include head.html %}
 </head>
+
 <body>
   {% include nav.html %}
+  {% if page.url == '/' %}
+  {% include header.html %}
+  {% endif %}
 
   <main>
-    <div class="container">
-        {{ content }}
-    </div>
+    <div class="container">{{ content }}</div>
   </main>
 
   {% include footer.html %}
-
 </body>
 
 </html>

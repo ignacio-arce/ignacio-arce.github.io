@@ -2,25 +2,23 @@
 url: "https://ignacio-arce.github.io"
 baseurl: "/"
 
-
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
 title: iaSoftware
+subtitle: Making IT solutions for the daily business
+author:
+  name: Ignacio Arce
+  copyright-year: 2020
+  email: iarce@dc.uba.ar
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
-navbar-links:
-  Contact: "contact.html"
-  Aboutus: "about.html"
 
-# Short description of your site
-description: TODO
+whatsapp:
+  link: "https://web.whatsapp.com/send?phone=5491167586967&text&source&data&app_absent"
+  number: "+54 91167586967"
 
 auto: true
-markdown: kramdown
 permalink: /:year/:month/:title
-rdiscount extensions: [smart]
-
-theme: jekyll-theme-slate

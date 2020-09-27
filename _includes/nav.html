@@ -4,10 +4,6 @@
     </button>
     <div class="container">
         <div class="collapse navbar-collapse" id="Navbar">
-            <div id="covid" class="hide">
-                <div class="badge d-none d-sm-block badge-danger" id="covid-confirmed">Coronavirus <img
-                        class="align-self-center mb-1" src='img/flag-ar.png' alt='Argentina' title="Argentina" /> Confirmados : </div>
-            </div>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item {% if site.data.nav.links[0].url == page.url %}active{% endif %}">
                     <a class="nav-link" href="{{ site.data.nav.links[0].url }}"><span class="fa fa-home fa-lg"></span>
@@ -17,10 +13,11 @@
                     <a class="nav-link" href="{{ site.data.nav.links[1].url }}"><span class="fa fa-info fa-lg"></span>
                         {{ site.data.nav.links[1].title }}</a>
                 </li>
-                <li class="nav-item {% if site.data.nav.links[2].url == page.url %}active{% endif %}">
+
+                <!-- <li class="nav-item {% if site.data.nav.links[2].url == page.url %}active{% endif %}">
                     <a class="nav-link" href="{{ site.data.nav.links[2].url }}"><span class="fa fa-suitcase fa-lg"></span>
                         {{ site.data.nav.links[2].title }}</a>
-                </li>
+                </li> -->
                 <li class="nav-item {% if site.data.nav.links[3].url == page.url %}active{% endif %}">
                     <a class="nav-link" href="{{ site.data.nav.links[3].url }}"><span
                             class="fa fa-envelope fa-lg"></span> {{ site.data.nav.links[3].title }}</a>

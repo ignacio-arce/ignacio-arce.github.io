@@ -1,7 +1,7 @@
 <footer class="footer">
   <div class="container">
     <div class="row">
-      <div class="col-4 offset-1 col-sm-3">
+      <div class="col-2 offset-sm-1 col-sm-3">
         <h5>{{ site.data.nav.nav-links }}</h5>
         <ul class="list-unstyled">
           {% for item in site.data.nav.links %}
@@ -9,15 +9,18 @@
           {% endfor %}
         </ul>
       </div>
-      <div class="col-6 offset-1 col-sm-3">
+      <div class="col-8 offset-1 col-sm-3">
         <h5>Información de contacto</h5>
-        <address> Buenos Aires<br />
+        <address> Buenos Aires,
           Argentina<br />
 
-          <i class="fab fa-lg fa-whatsapp"></i>: <a target="_blank" href="https://web.whatsapp.com/send?phone=5491167586967&text&source&data&app_absent">+54
-          91167586967</a><br />
-          <i class="fa fa-lg fa-envelope-square"></i>:
-          <a href="mailto:iarce@dc.uba.ar">iarce@dc.uba.ar</a>
+          <i class="fab fa-lg fa-whatsapp" aria-hidden="true"></i>: <a target="_blank" href="{{ site.whatsapp.link }}">
+            {{ site.whatsapp.number }}
+          </a>
+          <br />
+          <i class="fa fa-lg fa-envelope" aria-hidden="true"></i>: <a href="mailto:{{ site.author.email }}">
+            {{ site.author.email }}
+          </a>
         </address>
       </div>
       <div class="col-12 col-sm-4 align-self-center">
@@ -29,14 +32,13 @@
     </div>
     <div class="row justify-content-center">
       <div class="col-auto">
-        <p>© Copyright 2020 Ignacio Arce</p>
+        <p>© Copyright {{ site.author.copyright-year }} {{ site.author.name }}</p>
       </div>
     </div>
   </div>
 </footer>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-<script src="assets/js/covid.js"></script>
 <script src="assets/js/jquery-3.4.1.slim.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>

@@ -1,97 +1,97 @@
 body {
-	padding: 50px 0px 0px 0px;
-	
-	z-index: 0;
+  padding: 50px 0px 0px 0px;
+
+  z-index: 0;
 }
 
 .navbar-dark {
-	background-color: #0f0f0f;
+  background-color: #0f0f0f;
 }
 
 .row-header {
-	margin: 0px auto;
-	padding: 0px auto;
+  margin: 0px auto;
+  padding: 0px auto;
 }
 
 .row-content {
-	margin: 0px auto;
-	padding: 50px 0px 50px 0px;
-	border-bottom: 1px ridge;
-	min-height: 400px;
+  margin: 0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
 }
 
 .footer {
-	color: silver;
-	background-color: black;
-	margin: 0px auto;
-	padding: 20px 0px 20px 0px;
+  color: silver;
+  background-color: black;
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px;
 }
 
 .footer a {
-	color: dodgerblue;
-	text-decoration: none;
+  color: dodgerblue;
+  text-decoration: none;
 }
 
 .footer a:hover {
-	border-bottom: 0px;
-	color: lightskyblue;
+  border-bottom: 0px;
+  color: lightskyblue;
 }
 
 .jumbotron {
-	padding: 70px 30px 70px 30px;
-	margin: 0px auto;
-	background-color: #000;
-	background-attachment: fixed;
-	background-image: url("../../img/jumbotron.png");
-	background-size: cover;
-	color: floralwhite;
+  padding: 70px 30px 70px 30px;
+  margin: 0px auto;
+  background-color: #000;
+  background-attachment: fixed;
+  background-image: url("../../img/jumbotron.png");
+  background-size: cover;
+  color: floralwhite;
 }
 
 .jumbotron .card {
-	background-color: black;
-	background-size: cover;
-	color: floralwhite;
-	opacity: 0.8;
+  background-color: black;
+  background-size: cover;
+  color: floralwhite;
+  opacity: 0.8;
 }
 
 .address {
-	font-size: 80%;
-	margin: 0px;
-	color: floralwhite;
+  font-size: 80%;
+  margin: 0px;
+  color: floralwhite;
 }
 
 .tab-content {
-	border-left: 1px solid #dddddd;
-	border-right: 1px solid #dddddd;
-	border-bottom: 1px solid #dddddd;
-	padding: 15px;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  padding: 15px;
 }
 
 .badge {
-	margin: 5px;
+  margin: 5px;
 }
 
 .fa-github {
-	color: #ccc;
+  color: #ccc;
 }
 
 .show {
-	transition: opacity 400ms;
+  transition: opacity 400ms;
 }
 .hide {
-	opacity: 0;
+  opacity: 0;
 }
 
 .aboutme-title {
-	padding-top: 10px;
-	border-bottom: 1px solid #CCC;
+  padding-top: 10px;
+  border-bottom: 1px solid #ccc;
 }
 
 .card {
-	margin-top: 20px;
-	margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .card-link {
-	float: right;
+  float: right;
 }

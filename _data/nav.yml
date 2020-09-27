@@ -1,14 +1,13 @@
 nav-links: Links
 links:
+  - title: Home
+    url: /
 
-- title: Home
-  url: /
+  - title: Acerca de
+    url: /about
 
-- title: Acerca de
-  url: /about
+  - title: Portfolio
+    url: /portfolio
 
-- title: Portfolio
-  url: /portfolio
-
-- title: Contacto
-  url: /contact
+  - title: Contacto
+    url: /contact
