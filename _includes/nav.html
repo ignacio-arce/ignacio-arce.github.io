@@ -1,9 +1,13 @@
 <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+    <a class="navbar-brand rounded border border-light" href="#">
+        <img src="/img/logo.png" alt="logo" style="width: 50px; height: 40px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-menu" aria-controls="nav-menu"
+        aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="container">
-        <div class="collapse navbar-collapse" id="Navbar">
+        <div class="collapse navbar-collapse" id="nav-menu">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item {% if site.data.nav.links[0].url == page.url %}active{% endif %}">
                     <a class="nav-link" href="{{ site.data.nav.links[0].url }}"><span class="fa fa-home fa-lg"></span>
