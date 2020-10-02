@@ -39,7 +39,10 @@
 </footer>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-<script src="assets/js/jquery-3.5.1.slim.min.js"></script>
-<script src="assets/js/popper.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/all.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-3.5.1.slim.min.js"></script>
+<script type="text/javascript" src="assets/js/popper.min.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/js/all.min.js"></script>
+{% if page.url == '/contact' %}
+<script type="text/javascript" src="assets/js/form.js"></script>
+{% endif %}
