@@ -12,13 +12,14 @@ author:
   copyright-year: 2020
   email: iarce@dc.uba.ar
 
-# --- Navigation bar options --- #
-
 # List of links in the navigation bar
 
 whatsapp:
   link: "https://web.whatsapp.com/send?phone=5491167586967&text&source&data&app_absent"
   number: "+54 91167586967"
+
+api:
+  url: "https://ignacio-arce.herokuapp.com"
 
 auto: true
 permalink: /:year/:month/:title
