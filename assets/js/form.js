@@ -9,7 +9,6 @@
 	function postForm(url, data) {
 		$('#modal').modal('show');
 		$.post(url, data, success);
-		$('#modal').modal('hide');
 	}
 
 	function getFormData(form) {
@@ -23,6 +22,7 @@
 		event.preventDefault();
 		var form = getFormData($(this));
 		postForm(form.url, form.data);
+		$('#modal').modal('hide');
 	}
 
 	$('form#form').submit(handleSubmit);
