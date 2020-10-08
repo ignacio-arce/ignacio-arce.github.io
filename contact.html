@@ -17,8 +17,8 @@ title: iaSoftware - Contacto
         </p>
     </div>
     <div class="col-12 col-sm">
-        <form id="form" method="POST" class="pure-form pure-form-stacked" action="{{ site.api.url }}/mailguns">
-            <div class="form-elements">
+        <form id="form" method="POST" class="pure-form pure-form-stacked" action="{{ site.api.url }}/mailgun">
+            <div id="form-elements">
 
                 <div class="form-group">
                     <label for="name">Nombre: </label>
@@ -41,16 +41,18 @@ title: iaSoftware - Contacto
                         class="fa fa-paper-plane"></i>&nbsp;Enviar</button>
 
             </div>
-            <div style="display:none;" class="thankyou_message">
+            <div style="display:none;" id="thankyou-message">
                 <h2>
                     <em>Gracias</em> por contactarnos, nos comunicaremos con usted a la brevedad
                 </h2>
             </div>
-            <div id="modal" class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog"
-                aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-sm">
-                    <div class="modal-content">
-                        Error enviando mail
+            <div id="modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+                aria-hidden="true" data-backdrop="true">
+                <div class="d-flex justify-content-center">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="spinner-border texr-light" role="status">
+                            <span class="sr-only">Cargando...</span>
+                        </div>
                     </div>
                 </div>
             </div>
