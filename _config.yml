@@ -1,18 +1,12 @@
-# If you are building a simple GitHub user page (https://username.github.io) then use these settings:
 url: "https://ignacio-arce.github.io"
 baseurl: "/"
 
-# Of course don't forget to change the username and projectname to YOUR username and project
-
-# Name of website
 title: iaSoftware
 subtitle: Making IT solutions for the daily business
 author:
   name: Ignacio Arce
   copyright-year: 2020
   email: iarce@dc.uba.ar
-
-# List of links in the navigation bar
 
 whatsapp:
   link: "https://web.whatsapp.com/send?phone=5491167586967&text&source&data&app_absent"
