@@ -18,7 +18,7 @@ html {
 
 .row-content {
   margin: 0px auto;
-  min-height: calc(100vh - 200px);
+  min-height: calc(100vh - 400px);
   padding: 50px 0px 50px 0px;
   border-bottom: 1px ridge;
 }
@@ -32,7 +32,7 @@ a:hover {
   color: silver;
   background-color: black;
   margin: 0px auto;
-  min-height: 200px;
+  min-height: fit-content;
   padding: 20px 0px 20px 0px;
 }
 
