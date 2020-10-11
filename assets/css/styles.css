@@ -1,0 +1,115 @@
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+  min-height: 100%;
+}
+html {
+  height: 100%;
+}
+
+.navbar-dark {
+  background-color: #0f0f0f;
+}
+
+.row-header {
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+.row-content {
+  margin: 0px auto;
+  min-height: calc(100vh - 400px);
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+}
+
+a:hover {
+  text-decoration: none;
+  border-bottom: 0px;
+}
+
+.footer {
+  color: silver;
+  background-color: black;
+  margin: 0px auto;
+  min-height: fit-content;
+  padding: 20px 0px 20px 0px;
+}
+
+.footer a {
+  color: dodgerblue;
+}
+
+.footer a:hover {
+  border-bottom: 0px;
+  color: lightskyblue;
+}
+
+.footer address {
+  line-height: 1.8em;
+}
+
+.jumbotron {
+  padding: 70px 30px 70px 30px;
+  margin: 0px auto;
+  background-color: #000;
+  background-attachment: fixed;
+  background-image: url("../../img/jumbotron2.png");
+  background-size: cover;
+  min-height: 100vh;
+  color: floralwhite;
+}
+
+.jumbotron .card {
+  background-color: black;
+  background-size: cover;
+  color: floralwhite;
+  opacity: 0.8;
+}
+
+.title {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+.address {
+  font-size: 80%;
+  margin: 0px;
+  color: floralwhite;
+}
+
+.tab-content {
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  padding: 15px;
+}
+
+.badge {
+  margin: 5px;
+}
+
+.fa-github {
+  color: #ccc;
+}
+
+.show {
+  transition: opacity 400ms;
+}
+.hide {
+  opacity: 0;
+}
+
+.aboutme-title {
+  padding-top: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-link {
+  float: right;
+}
