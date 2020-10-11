@@ -1,27 +1,24 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang  }}">
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="author" content="acerNacho" />
+
   <title>{{ page.title }}</title>
 
-  <link rel="icon" href="/favicon.ico" />
-  <link rel="stylesheet" href="/assets/css/styles.css" />
-  {% include head.html %}
+  {%- include head.html -%}
 </head>
 
 <body>
-  {% include nav.html %}
+  {%- include nav.html -%}
   {% if page.url == '/' %}
-  {% include header.html %}
+  {%- include header.html -%}
   {% endif %}
 
   <main>
     <div class="container">{{ content }}</div>
   </main>
 
-  {% include footer.html %}
+  {%- include footer.html -%}
 </body>
 
 </html>

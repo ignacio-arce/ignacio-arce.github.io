@@ -1,0 +1,34 @@
+site:
+  name: My Example Website
+  subtitle: Making IT solutions for the daily business
+  description: This example website will amaze you!
+  keywords: example, website, amazing
+  lang: en
+  footer:
+    info: Contact information
+
+main:
+  requested-jobs:
+    title: Our most requested jobs
+    heading: Responsive website update
+    p1: These days it is essential to show our business website
+      on any device. Using the "responsive" web design technique
+      or <a target="_blank" href="https://en.wikipedia.org/wiki/Responsive_web_design">adaptive</a>
+      we adjust any existing static web page at a very low price.
+      In this way we make visitors have a better experience by inviting them
+      to get in touch with you.
+  last-technologies:
+    title: Software development with the latest technologies
+    p1:
+      We keep abreast of technological advances, training ourselves to provide our clients
+      the
+      best customized IT solutions, broadly covering the needs and providing support
+      technical.
+  meet-us:
+    title: Get to know us
+    heading: Software developer
+    p1:
+      Passionate about technology. Out of curiosity I learned by doing programming blogs in 2008,
+      I made software to manage labs and web pages.
+      Currently I dedicate fulltime as a programmer for integrations of e-commerce platforms and I do
+      freelance jobs of all kinds.

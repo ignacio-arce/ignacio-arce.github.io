@@ -2,7 +2,6 @@ url: "https://ignacio-arce.github.io"
 baseurl: "/"
 
 title: iaSoftware
-subtitle: Making IT solutions for the daily business
 author:
   name: Ignacio Arce
   copyright-year: 2020
@@ -17,3 +16,11 @@ api:
 
 auto: true
 permalink: /:year/:month/:title
+
+plugins:
+  - jekyll-multiple-languages-plugin
+
+languages: ["en", "es"]
+exclude_from_localizations: ["assets", "img"]
+defaultLang: en
+default_locale_in_subfolder: true

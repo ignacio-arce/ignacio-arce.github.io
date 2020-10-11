@@ -1,0 +1,34 @@
+site:
+  name: My Example Website
+  subtitle: Soluciones informáticas para tu negocio
+  description: This example website will amaze you!
+  keywords: example, website, amazing
+  lang: es
+  footer:
+    info: Información de contacto
+
+main:
+  requested-jobs:
+    title: Nuestros trabajos mas solicitados
+    heading: Actualización pagina web responsive
+    p1: En estos días es imprescindible mostrar nuestra web de negocio
+      en cualquier dispositivo. Utilizando la técnica de diseño web "responsive"
+      o <a href="https://es.wikipedia.org/wiki/Dise%C3%B1o_web_adaptable">adaptativo</a>
+      ajustamos cualquier página web estatica existente a un muy bajo precio.
+      De esta forma hacemos que los visitantes tengan una mejor experiencia invitandolos
+      a ponerse en contacto con ustedes.
+  last-technologies:
+    title: Desarrollo de software con las últimas tecnologias
+    p1:
+      Nos mantenemos al tanto de los avances tecnológicos, capacitandonos para brindar a nuestros clientes
+      las
+      mejores soluciones informaticas a medida, cubriendo ampliamente las necesidades y dando soporte
+      técnico.
+  meet-us:
+    title: Conozcanos
+    heading: Desarrollador de software
+    p1:
+      Apasionado por la tecnología. Por curiosidad aprendí haciendo blogs de programación por el 2008,
+      hice software para gestionar laboratorios y paginas web.
+      Actualmente dedico fulltime como programador de integraciones de plataformas de e-commerce y hago
+      trabajos freelance de todo tipo.
