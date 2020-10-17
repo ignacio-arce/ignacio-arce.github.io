@@ -17,7 +17,7 @@ title: iaSoftware - About
 	</div>
 	<div class="col-12">
 		<div class="aboutme-title">
-			<h2>Educación</h2>
+			<h2>{% t about.education.title %}</h2>
 		</div>
 		<div class="card">
 			<div class="card-body">
@@ -25,75 +25,46 @@ title: iaSoftware - About
 					<img class="d-none d-sm-flex align-self-center mr-3" src="/img/logo-fcenuba.png" width="150"
 						alt="logo-fcenuba">
 					<div class="media-body">
-						<h4 class="card-title">Licenciatura en Ciencias de la Computación – FCEyN UBA</h4>
-						<h6 class="card-subtitle mb-2 text-muted">2017 - actualidad</h6>
+						<h4 class="card-title">{% t about.education.card-title%} – FCEyN UBA</h4>
+						<h6 class="card-subtitle mb-2 text-muted">{% t about.education.card-subtitle %}</h6>
 						<p class="card-text">
-						<p>El plan de estudios de esta carrera combina clases teóricas, trabajo en laboratorio,
-							prácticas, cursos y seminarios opcionales, algunos dictados por docentes extranjeros invitados.
-							Contiene materias obligatorias que incluyen las que procuran dar una formación completa en
-							conceptos y técnicas de programación (incluyendo estructuras de datos, algoritmos y lenguajes) y
-							las que presentan los conocimientos indispensables y actualizados de arquitectura de
-							computadoras, sistemas operativos, análisis y diseño de sistemas, redes y comunicaciones.
+						<p>{% t about.education.p1 %}
 						</p>
-						<p>También incluye materias del área de la Ingeniería del Software y de Métodos Numéricos y una
-							gran variedad de materias a elección entre robótica, inteligencia artificial, teoría de juegos,
-							computación gráfica, bioinformática, redes de comunicaciones, etc.
+						<p>{% t about.education.p2 %}
 						</p>
 						</p>
 
 					</div>
 				</div>
 				<a target="_blank" href="https://exactas.uba.ar/ensenanza/carreras-de-grado/ciencias-de-la-computacion/"
-					class="card-link">Mas información</a>
+					class="card-link">{% t about.more-information %}</a>
 			</div>
 		</div>
 		<div class="aboutme-title">
-			<h2>Desarrollos</h2>
+			<h2>{{ site.data.experiences.development[site.lang].title }}</h2>
 		</div>
-
+		{% for item in site.data.experiences.development[site.lang].data %}
 		<div class="card">
 			<div class="card-body">
 				<div class="media">
-					<img class="d-none d-sm-flex align-self-center mr-3" alt="Magento" src=" /img/magento.png" />
+					<img class="d-none d-sm-flex align-self-center mr-3" alt="{{item.card-title}}" src="{{item.img}}" />
 					<div class="media-body">
-						<h4 class="card-title">Magento</h4>
-						<h6 class="card-subtitle mb-2 text-muted">3 meses</h6>
+						<h4 class="card-title">{{item.card-title}}</h4>
+						<h6 class="card-subtitle mb-2 text-muted">{{item.card-subtitle}}</h6>
 						<p class="card-text">
 						<p>
-							Modificación de un plug-in a medida para Magento v2.3 para integrar los servicios del cliente.
+							{{item.p1}}
 						</p>
 						<p>
-							Tecnologías usadas: PHP, Javascript y HTML5
+							{{item.p2}}
 						</p>
 						</p>
-						<a href="https://www.magento.com" target="_blank" class="card-link">Más información</a>
+						<a href="{{item.link}}" target="_blank" class="card-link">{% t about.more-information %}</a>
 					</div>
 				</div>
 			</div>
 		</div>
-
-		<div class="card">
-			<div class="card-body">
-				<div class="media">
-					<img class="d-none d-sm-flex align-self-center mr-3" alt="VTEX" src="/img/vtex.png" />
-					<div class="media-body">
-						<h4 class="card-title">VTEX</h4>
-						<h6 class="card-subtitle mb-2 text-muted">6 meses</h6>
-						<p class="card-text">
-						<p>
-							Creación de una REST API para integrar los servicios del cliente con VTEX.
-						</p>
-						<p>
-							Tecnologías usadas: Node.js, React.js, Nest.js y TypeORM
-						</p>
-						</p>
-						<a href="https://www.vtex.com" target="_blank" class="card-link">Más información</a>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
+		{% endfor %}
 	</div>
 
 </div>

@@ -1,7 +1,6 @@
 site:
-  name: My Example Website
+  name: iaSoftware
   subtitle: Making IT solutions for the daily business
-  description: This example website will amaze you!
   keywords: example, website, amazing
   lang: en
   footer:
@@ -32,3 +31,24 @@ main:
       I made software to manage labs and web pages.
       Currently I dedicate fulltime as a programmer for integrations of e-commerce platforms and I do
       freelance jobs of all kinds.
+
+about:
+  more-information: More information
+  education:
+    title: Education
+    card-title: Bachelor of Computer Science
+    card-subtitle: 2017 - present
+    p1: The curriculum of this career combines theoretical classes,
+      laboratory work, Optional internships, courses and seminars,
+      some given by invited foreign teachers. It contains compulsory
+      subjects that include those that seek to give complete training
+      in programming concepts and techniques (including data structures,
+      algorithms, and languages) and those that present the indispensable
+      and updated knowledge of architecture of computers, operating systems,
+      analysis and design of systems, networks and communications.
+
+    p2:
+      It also includes subjects from the area of ​​Software Engineering and Numerical Methods
+      and a great variety of subjects to choose between robotics,
+      artificial intelligence, game theory, graphic computing,
+      bioinformatics, communications networks, etc.
