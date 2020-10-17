@@ -52,3 +52,19 @@ about:
       and a great variety of subjects to choose between robotics,
       artificial intelligence, game theory, graphic computing,
       bioinformatics, communications networks, etc.
+contact:
+  title: Contact Us!
+  p1: We listen to your proposal, we analyze if it is viable
+    and we will get in touch with you shortly.
+  p2: Complete the <b><em>form</em></b>
+    to send us a message.
+  form:
+    name: "Name: "
+    message: "Message: "
+    email: "Email: "
+    button: Submit
+    thanks: <em> Thank you </em> for contacting us, we will contact you shortly.
+  placeholder:
+    name: Enter your full name
+    message: Write your query here
+    email: Enter your email
