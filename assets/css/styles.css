@@ -54,7 +54,7 @@ a:hover {
   margin: 0px auto;
   background-color: #000;
   background-attachment: fixed;
-  background-image: url("../../img/jumbotron2.png");
+  background-image: url("../../img/jumbotron.png");
   background-size: cover;
   min-height: 100vh;
   color: floralwhite;
@@ -112,4 +112,31 @@ a:hover {
 
 .card-link {
   float: right;
+}
+
+.flag-icon,
+.flag-icon-background {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+}
+.flag-icon {
+  position: relative;
+  display: inline-block;
+  width: 1em;
+  line-height: 1em;
+}
+.flag-icon:before {
+  content: "\00a0";
+}
+
+.flag-icon-es {
+  background-image: url("../../img/flags/es.png");
+}
+.flag-icon-en {
+  background-image: url("../../img/flags/en.png");
+}
+
+.dropdown-menu {
+  min-width: 1rem !important;
 }

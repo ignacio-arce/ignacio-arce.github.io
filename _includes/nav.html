@@ -16,6 +16,24 @@
                         {{ item.title }}</a>
                 </li>
                 {% endfor %}
+                <li class="nav-item dropdown">
+
+                    {%if site.lang =="en" %}
+                    <a class="nav-link dropdown-toggle" href="#" id="languages-dropdown" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-en"> </span>
+                        EN</a>
+                    <div class="dropdown-menu" aria-labelledby="languages-dropdown">
+                        <a class="dropdown-item" href="/es/"><span class="flag-icon flag-icon-es"> </span> ES</a>
+                    </div>
+                    {% else %}
+                    <a class="nav-link dropdown-toggle" href="#" id="languages-dropdown" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-es"> </span>
+                        ES</a>
+                    <div class="dropdown-menu" aria-labelledby="languages-dropdown">
+                        <a class="dropdown-item" href="/en/"><span class="flag-icon flag-icon-en"> </span> EN</a>
+                    </div>
+                    {% endif %}
+                </li>
             </ul>
         </div>
     </div>
