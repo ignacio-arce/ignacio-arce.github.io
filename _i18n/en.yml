@@ -1,7 +1,9 @@
 site:
-  name: iaSoftware
+  name: ignacio arce
   subtitle: Making IT solutions for the daily business
-  keywords: example, website, amazing
+  keywords:
+    developer, development, website, responsive, programmer, programming, fullstack, freelance, experience, javascript,
+    nodejs, react, reactjs, html, html5, css, css3, java, php
   lang: en
   footer:
     info: Contact information

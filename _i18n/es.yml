@@ -1,8 +1,9 @@
 site:
-  name: My Example Website
+  name: ignacio arce
   subtitle: Soluciones informáticas para tu negocio
-  description: This example website will amaze you!
-  keywords: example, website, amazing
+  keywords:
+    desarrollo, website, responsive, programador, freelance, experiencia, javascript,
+    nodejs, react, reactjs, html, html5, css, css3, java, php
   lang: es
   footer:
     info: Información de contacto
