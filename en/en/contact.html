@@ -3,7 +3,7 @@
 
 <head>
 
-  <title>ignacio arce - About</title><meta charset="utf-8" />
+  <title>ignacio arce - Contact</title><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta http-equiv="x-ua-compatible" content="ie=edge" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -37,11 +37,11 @@
                     <a class="nav-link" href="/"><span class="fa fa-home fa-lg"></span>
                         Home</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item ">
                     <a class="nav-link" href="about"><span class="fa fa-info fa-lg"></span>
                         About us</a>
                 </li>
-                <li class="nav-item ">
+                <li class="nav-item active">
                     <a class="nav-link" href="contact"><span class="fa fa-envelope fa-lg"></span>
                         Contact</a>
                 </li>
@@ -63,98 +63,57 @@
 </nav>
 
   <main>
-    <div class="container"><div class="row row-content align-items-center justify-content-center">
-	<div class="col col-sm">
-		<h2>Ignacio Arce</h2>
-		<h4>Software developer</h4>
+    <div class="container"><div class="row row-content align-items-center">
+    <div class="col-12 col-md-4">
 
-		<p class="d-none d-sm-block">
-			Passionate about technology. Out of curiosity I learned by doing programming blogs in 2008, I made software to manage labs and web pages. Currently I dedicate fulltime as a programmer for integrations of e-commerce platforms and I do freelance jobs of all kinds.
-		</p>
-
-	</div>
-	<div class="col-12 col-sm-3 text-center">
-		<img class="mr-sm-3 rounded-circle" src="/img/ignacio.png" alt="ignacio" />
-	</div>
-	<div class="col-12">
-		<div class="aboutme-title">
-			<h2>Education</h2>
-		</div>
-		<div class="card">
-			<div class="card-body">
-				<div class="media">
-					<img class="d-none d-sm-flex align-self-center mr-3" src="/img/logo-fcenuba.png" width="150"
-						alt="logo-fcenuba">
-					<div class="media-body">
-						<h4 class="card-title">Bachelor of Computer Science – FCEyN UBA</h4>
-						<h6 class="card-subtitle mb-2 text-muted">2017 - present</h6>
-						<p class="card-text">
-						<p>The curriculum of this career combines theoretical classes, laboratory work, Optional internships, courses and seminars, some given by invited foreign teachers. It contains compulsory subjects that include those that seek to give complete training in programming concepts and techniques (including data structures, algorithms, and languages) and those that present the indispensable and updated knowledge of architecture of computers, operating systems, analysis and design of systems, networks and communications.
-						</p>
-						<p>It also includes subjects from the area of ​​Software Engineering and Numerical Methods and a great variety of subjects to choose between robotics, artificial intelligence, game theory, graphic computing, bioinformatics, communications networks, etc.
-						</p>
-						</p>
-
-					</div>
-				</div>
-				<a target="_blank" href="https://exactas.uba.ar/ensenanza/carreras-de-grado/ciencias-de-la-computacion/"
-					class="card-link">More information</a>
-			</div>
-		</div>
-		<div class="aboutme-title">
-			<h2>Development</h2>
-		</div>
-		
-		<div class="card">
-			<div class="card-body">
-				<div class="media">
-					<img class="d-none d-sm-flex align-self-center mr-3" style="width: 200px; height: 200px"
-						alt="Magento" src="/img/magento.png" />
-					<div class="media-body">
-						<h4 class="card-title">Magento</h4>
-						<h6 class="card-subtitle mb-2 text-muted">3 months project</h6>
-						<p class="card-text">
-						<p>
-							Modification of a custom plug-in for Magento v2.3 to integrate client services.
-						</p>
-						<p>
-							Technologies used: PHP, Javascript and HTML5
-						</p>
-						</p>
-						
-						<a href="https://www.magento.com" target="_blank" class="card-link">More information</a>
-						
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="card">
-			<div class="card-body">
-				<div class="media">
-					<img class="d-none d-sm-flex align-self-center mr-3" style="width: 200px; height: 200px"
-						alt="VTEX" src="/img/vtex.png" />
-					<div class="media-body">
-						<h4 class="card-title">VTEX</h4>
-						<h6 class="card-subtitle mb-2 text-muted">6 months project</h6>
-						<p class="card-text">
-						<p>
-							Creation of a REST API to integrate customer services with VTEX.
-						</p>
-						<p>
-							Technologies used: Node.js, React.js, Nest.js and TypeORM
-						</p>
-						</p>
-						
-						<a href="https://www.vtex.com" target="_blank" class="card-link">More information</a>
-						
-					</div>
-				</div>
-			</div>
-		</div>
-		
-	</div>
-
+        <h2>Contact Us!</h2>
+        <p>
+            We listen to your proposal, we analyze if it is viable and we will get in touch with you shortly.
+        </p>
+        <p>
+            Complete the <b><em>form</em></b> to send us a message.
+        </p>
+    </div>
+    <div class="col-12 col-sm">
+        <form id="form" method="POST" class="pure-form pure-form-stacked" action="https://ignacio-arce.herokuapp.com/mail">
+            <div id="form-elements">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" lang="en" class="form-control" name="subject" id="subject"
+                        placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="text">Message: </label>
+                    <textarea id="text" lang="en" name="text"
+                        placeholder="Write your query here" rows="10" class="form-control" rows="5"
+                        required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="from">Email: </label>
+                    <input type="email" lang="en" id="from" name="from" class="form-control" required
+                        placeholder="Enter your email">
+                </div>
+                <br />
+                <button id="submit-btn" type="submit" class="btn btn-primary"><i
+                        class="fa fa-paper-plane"></i>&nbsp;Submit</button>
+            </div>
+            <div style="display:none;" id="thankyou-message">
+                <h2>
+                    <em> Thank you </em> for contacting us, we will contact you shortly.
+                </h2>
+            </div>
+            <div id="modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
+                aria-hidden="true" data-backdrop="true">
+                <div class="d-flex justify-content-center">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="spinner-border texr-light" role="status">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
 </div></div>
   </main><footer class="footer">
   <div class="container">
@@ -204,6 +163,7 @@
 <script type="text/javascript" src="/assets/js/popper.min.js"></script>
 <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/assets/js/all.min.js"></script>
-</body>
+
+<script type="text/javascript" src="/assets/js/form.js"></script></body>
 
 </html>
