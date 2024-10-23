@@ -1,0 +1,194 @@
+{
+  "basics": {
+    "name": "Ignacio Arce",
+    "label": "Full Stack Developer",
+    "image": "https://bettervet.com/hs-fs/hubfs/BetterVet_October2022/images/Ignacio%20Arce.jpeg",
+    "email": "iarce@dc.uba.ar",
+    "phone": "(+54) 11 52578577",
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "ignacio-arce",
+        "url": "https://github.com/ignacio-arce"
+      },
+      {
+        "network": "netlify",
+        "username": "ignacio-arce",
+        "url": "https://ignacio-arce.github.io/"
+      },
+      {
+        "network": "Linkedin-square",
+        "username": "ignacio-arce",
+        "url": "https://www.linkedin.com/in/ignacio-arce/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "location": "Boston, MA",
+      "name": "BetterVet",
+      "description": "Stress-Free, In-Home Veterinary Care",
+      "position": "Full Stack Engineer",
+      "url": "https://www.bettervet.com",
+      "startDate": "2021-12-01",
+      "endDate": "Present",
+      "time": "2 yrs 11 mos",
+      "summary": "As one of the first six engineers, I contributed significantly to scaling the company from 5,000 to 500,000 users and growing the team to 200+ employees. My work spanned full-stack development, system optimization, and feature delivery.",
+      "highlights": [
+        "Designed and implemented a user-friendly mobile app for clients and veterinarians, improving engagement and appointment bookings.",
+        "Migrated deployment from AWS EC2 to ECS, ensuring scalability and minimizing downtime.",
+        "Created an incentivized referral program that rewarded clients for referring friends, boosting retention rates and loyalty.",
+        "Developed a custom scheduling system solution reducing no-shows and improving operational efficiency.",
+        "Integrated SquareUp as the new payments API replacement for Gravity, maintaining both third party APIs using design patterns.",
+        "Regularly updated codebases to ensure compatibility with new features and security patches."
+      ]
+    },
+    {
+      "location": "Buenos Aires, Argentina",
+      "name": "Technisys",
+      "description": "Finantial Services",
+      "position": "Senior Front End Developer",
+      "url": "https://wwww.technisys.com",
+      "startDate": "2021-04-01",
+      "endDate": "2021-12-01",
+      "time": "9 mos",
+      "summary": "At Technisys, I was part of a 14-member development team dedicated to enhancing the digital experience for Diners Club from Ecuador. During my 9-month tenure, I played a key role in modernizing the frontend architecture and optimizing the performance of both web and mobile applications.",
+      "highlights": [
+        "Developed and maintained user interfaces for web and mobile applications using React and React Native, collaborating closely with a 14-member team to deliver a seamless user experience.",
+        "Implemented advanced state management solutions utilizing Redux Thunk and Redux Sagas to improve application efficiency and maintainability.",
+        "Styled components using Sass and Stylesheets, following design specifications, and set up Storybook for consistent UI documentation and testing.",
+        "Collaborated with QA team to deliver high-quality code faster using Jest for unit testing."
+      ]
+    },
+    {
+      "location": "Buenos Aires, Argentina",
+      "name": "Orbit",
+      "description": "Freelance",
+      "position": "Full Stack Developer",
+      "url": "https://wwww.orbit.com.ar",
+      "startDate": "2021-02-01",
+      "endDate": "2021-08-01",
+      "time": "7 mos",
+      "summary": "I worked on a variety of projects over a 7-month period, contributing to different fields and quickly adapting to diverse requirements. The projects ranged from language learning applications to delivery services and emergency alert systems.",
+      "highlights": [
+        "Developed and maintained mobile applications using React Native across multiple projects, ensuring functionality and a user-friendly interface.",
+        "Built backend services with Nest.js and TypeORM for data management and server-side logic in select projects.",
+        "Implemented features and integrations such as Google Maps API, form validation with Formik and Yup, and state management with Redux Thunk.",
+        "Adapted quickly to diverse project needs, delivering quality results for each application in a short time frame."
+      ]
+    },
+    {
+      "location": "Buenos Aires, Argentina",
+      "name": "Onready",
+      "description": "Software Factory",
+      "position": "Software Developer",
+      "url": "https://github.com/onready",
+      "startDate": "2020-03-01",
+      "endDate": "2021-04-01",
+      "time": "1 yr 2 mos",
+      "summary": "Worked in a software factory environment, collaborating with cross-functional teams using agile methodologies, specifically Scrum, to deliver high-quality software solutions. My responsibilities included developing and maintaining both backend and frontend applications, ensuring alignment with client requirements, and deploying scalable solutions.",
+      "highlights": [
+        "Developed a Magento multivendor plugin (PHP)",
+        "Built a REST API (Node.js) to integrate ePak (OCA) services with the VTEX platform.",
+        "Created a REST API (Node.js) to manage user balances for the PayGoal wallet, deployed on AWS.",
+        "Developed a web app to interact with the VTEX API (React).",
+        "Built a mobile wallet app for PayGoal's client (React Native).",
+        "Created a web app for managing PayGoal's wallet clients (React Native).",
+        "Designed the interface for the Magento plugin (jQuery, HTML and CSS)."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend",
+      "level": "Master",
+      "keywords": [
+        "Node",
+        "Java",
+        "SQL",
+        "Docker",
+        "MongoDB",
+        "AWS SQS",
+        "AWS ECS",
+        "Jest",
+        "Serverless Lambdas"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "SASS",
+        "Jest",
+        "Storybook",
+        "Typescript",
+        "React",
+        "React Native"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Conversational (B2)"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    }
+  ],
+  "references": [
+    {
+      "name": "Matthew Harris, CTO (BetterVet)",
+      "reference": "“I had the pleasure of working with Ignacio, who grew from a developer into a highly skilled senior engineer. His dedication, strong coding practices, and willingness to mentor others made a significant impact on the team. I highly recommend him for any opportunity.”"
+    },
+    {
+      "name": "Nahuel Schlegel, Backend & Infrastructure Engineering Manager (BetterVet)",
+      "reference": "“Ignacio is a great developer! He manages projects independently from the beginning to launch. He resolves everything; if he doesn't know something, he researches, asks, and solves it. He has been one pillar for BetterVet, working on multiple projects side by side with the team. He is very proactive, self-taught, and a very good teammate.”"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Lexikon",
+      "description": "Greek Language Learning App: Developed the backend using Nest.js and TypeORM, and built a mobile app with React Native for interactive language learning.",
+      "startDate": "2021-02-01",
+      "endDate": "2021-03-01",
+      "highlights": [],
+      "url": "javascript:void(0)",
+      "entity": "Smoogle",
+      "type": "API and Mobile App"
+    },
+    {
+      "name": "Tiendas Tic",
+      "description": "Product Delivery App: Implemented features including Google Maps integration, and used React Native Paper for UI components, while handling form management with Formik and Yup.",
+      "highlights": [],
+      "startDate": "2021-03-01",
+      "endDate": "2021-06-01",
+      "url": "https://tiendas-tic.vercel.app/",
+      "entity": "Smoogle",
+      "type": "Mobile App"
+    },
+    {
+      "name": "Helpy",
+      "description": "Emergency Alert App: Created an application to help elderly or disabled users alert their relatives in emergencies, using React Native, Formik, Yup, and Redux Thunk for robust form handling and state management.",
+      "highlights": [],
+      "startDate": "2021-06-01",
+      "endDate": "2021-08-01",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:6848191746078257152/",
+      "entity": "Smoogle",
+      "type": "Mobile App"
+    },
+    {
+      "name": "Veterinarian Admin Panel",
+      "description": "Led the migration of legacy software to a modern architecture using the tRPC framework. The project involved transitioning outdated systems to a new, more scalable solution, while ensuring data integrity.",
+      "highlights": [],
+      "startDate": "2024-06-01",
+      "endDate": "2024-09-01",
+      "url": "javascript:void(0)",
+      "entity": "Smoogle",
+      "type": "API and Web App"
+    }
+  ]
+}

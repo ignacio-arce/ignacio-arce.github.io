@@ -1,0 +1,11 @@
+<div><box-icon color="gray" size="sm" name="edit-alt"></box-icon>
+  <h2>References</h2>
+</div>
+<section>
+  ${references.map(reference => `
+  <blockquote>
+    <p>${reference.reference}</p>
+    <footer>— <cite>${reference.name}</cite></footer>
+  </blockquote>
+  `).join('\n')}
+</section>
