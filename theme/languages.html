@@ -1,0 +1,11 @@
+<div><box-icon color="gray" size="sm" name="conversation"></box-icon>
+  <h2>Languages</h2>
+</div>
+<table>
+  ${languages.map(language => `
+  <tr>
+    <td>${language.language}</td>
+    ${language.fluency ? `<td>${language.fluency}</td>` : ''}
+  </tr>
+  `).join('\n')}
+</table>

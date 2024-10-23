@@ -1,0 +1,11 @@
+<div><box-icon color="gray" size="sm" name="code"></box-icon>
+  <h2>Skills</h2>
+</div>
+<table>
+  ${skills.map(skill => `
+  <tr>
+    <td>${skill.name}</td>
+    ${skill.keywords ? `<td>${skill.keywords.join(', ')}</td>` : ''}
+  </tr>
+  `).join('\n')}
+</table>

@@ -1,0 +1,11 @@
+<div><box-icon color="gray" size="sm" name="football"></box-icon>
+  <h2>Interests</h2>
+</div>
+<table>
+  ${interests.map(interest => `
+  <tr>
+    <td>${interest.name}</td>
+    ${interest.keywords ? `<td>${interest.keywords.join(', ')}</td>` : ''}
+  </tr>
+  `).join('\n')}
+</table>

@@ -1,0 +1,9 @@
+<section>
+  ${profiles.map(profile => `
+  <div>
+    <box-icon type="logo" color="black" size="xs" name="${profile.network.toLowerCase()}"></box-icon>
+    ${profile.url ? `<span><a href="${profile.url}">${profile.username}</a></span>` : ''}
+    ${!profile.url ? `<span>${profile.username}</span>` : ''}
+  </div>
+  `).join('\n')}
+</section>
