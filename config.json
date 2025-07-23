@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Ignacio Arce",
-    "label": "Full Stack Developer",
+    "label": "Senior Full Stack Engineer",
     "image": "https://bettervet.com/hs-fs/hubfs/BetterVet_October2022/images/Ignacio%20Arce.jpeg",
     "email": "iarce@dc.uba.ar",
     "phone": "(+54) 11 52578577",
@@ -25,22 +25,39 @@
   },
   "work": [
     {
+      "location": "New York, NY",
+      "name": "The Vets",
+      "description": "Veterinary Services",
+      "position": "Senior Full Stack Engineer",
+      "url": "https://thevets.com",
+      "startDate": "2024-11-01",
+      "endDate": "Present",
+      "time": "9 mos",
+      "summary": "Leading the end‑to‑end development and operations of The Vets iPad app and backend microservices, ensuring high availability, scalability, and customer migrations",
+      "highlights": [
+        "Orchestrated bi‑weekly production releases of the iPad application used by veterinarians, reducing rollout time by 30% and eliminating rollback incidents through automated CI/CD pipelines.",
+        "Performed proactive upkeep, scaling and troubleshooting across 32 Node.js microservices on AWS EKS, cutting incident response times and improving overall system uptime to 99.9%.",
+        "Spearheaded the data and configuration migration of 1,200+ BetterVet clients into The Vets platform, executing zero‑downtime cutovers and achieving full data integrity validation.",
+        "Designed, implemented, and maintained new functionality in over ten repositories (frontend React Native/React, backend Node.js/TypeScript)."
+      ]
+    },
+    {
       "location": "Boston, MA",
       "name": "BetterVet",
       "description": "Stress-Free, In-Home Veterinary Care",
-      "position": "Full Stack Engineer",
+      "position": "Senior Backend Engineer",
       "url": "https://www.bettervet.com",
       "startDate": "2021-12-01",
-      "endDate": "Present",
+      "endDate": "2024-11-01",
       "time": "2 yrs 11 mos",
       "summary": "As one of the first six engineers, I contributed significantly to scaling the company from 5,000 to 500,000 users and growing the team to 200+ employees. My work spanned full-stack development, system optimization, and feature delivery.",
       "highlights": [
         "Designed and implemented a user-friendly mobile app for clients and veterinarians, improving engagement and appointment bookings.",
-        "Migrated deployment from AWS EC2 to ECS, ensuring scalability and minimizing downtime.",
-        "Created an incentivized referral program that rewarded clients for referring friends, boosting retention rates and loyalty.",
-        "Developed a custom scheduling system solution reducing no-shows and improving operational efficiency.",
-        "Integrated SquareUp as the new payments API replacement for Gravity, maintaining both third party APIs using design patterns.",
-        "Regularly updated codebases to ensure compatibility with new features and security patches."
+        "Migrated monolithic deployments on AWS EC2 to containerized ECS clusters, achieving availability and zero‑downtime updates.",
+        "Engineered a custom scheduling engine reducing no‑show rates by 35% and streamlining clinic operations.",
+        "Developed a referral incentive program that lifted user retention by 20% and generated 15% of new sign‑ups.",
+        "Integrated SquareUp and Gravity payments APIs with a unified abstraction layer, simplifying third‑party service swaps.",
+        "Led bi‑weekly code reviews and mentored junior engineers, raising overall code quality"
       ]
     },
     {
@@ -48,11 +65,11 @@
       "name": "Technisys",
       "description": "Finantial Services",
       "position": "Senior Front End Developer",
-      "url": "https://wwww.technisys.com",
+      "url": "https://www.technisys.com",
       "startDate": "2021-04-01",
       "endDate": "2021-12-01",
       "time": "9 mos",
-      "summary": "At Technisys, I was part of a 14-member development team dedicated to enhancing the digital experience for Diners Club from Ecuador. During my 9-month tenure, I played a key role in modernizing the frontend architecture and optimizing the performance of both web and mobile applications.",
+      "summary": "Contributed to a 14‑member team modernizing Diners Club’s digital banking interfaces, focusing on frontend architecture, performance and UI consistency.",
       "highlights": [
         "Developed and maintained user interfaces for web and mobile applications using React and React Native, collaborating closely with a 14-member team to deliver a seamless user experience.",
         "Implemented advanced state management solutions utilizing Redux Thunk and Redux Sagas to improve application efficiency and maintainability.",
@@ -69,7 +86,7 @@
       "startDate": "2021-02-01",
       "endDate": "2021-08-01",
       "time": "7 mos",
-      "summary": "I worked on a variety of projects over a 7-month period, contributing to different fields and quickly adapting to diverse requirements. The projects ranged from language learning applications to delivery services and emergency alert systems.",
+      "summary": "Delivered end‑to‑end mobile and backend solutions across diverse projects, adapting quickly to client requirements and tight timelines.",
       "highlights": [
         "Developed and maintained mobile applications using React Native across multiple projects, ensuring functionality and a user-friendly interface.",
         "Built backend services with Nest.js and TypeORM for data management and server-side logic in select projects.",
@@ -86,15 +103,12 @@
       "startDate": "2020-03-01",
       "endDate": "2021-04-01",
       "time": "1 yr 2 mos",
-      "summary": "Worked in a software factory environment, collaborating with cross-functional teams using agile methodologies, specifically Scrum, to deliver high-quality software solutions. My responsibilities included developing and maintaining both backend and frontend applications, ensuring alignment with client requirements, and deploying scalable solutions.",
+      "summary": "Worked in an Agile/Scrum software factory delivering PHP, Node.js and React solutions for e‑commerce and fintech clients.",
       "highlights": [
-        "Developed a Magento multivendor plugin (PHP)",
-        "Built a REST API (Node.js) to integrate ePak (OCA) services with the VTEX platform.",
-        "Created a REST API (Node.js) to manage user balances for the PayGoal wallet, deployed on AWS.",
-        "Developed a web app to interact with the VTEX API (React).",
-        "Built a mobile wallet app for PayGoal's client (React Native).",
-        "Created a web app for managing PayGoal's wallet clients (React Native).",
-        "Designed the interface for the Magento plugin (jQuery, HTML and CSS)."
+        "Developed a Magento multivendor plugin (PHP) and designed its UI with jQuery, HTML5 and CSS3.",
+        "Built RESTful APIs in Node.js for ePak (OCA) integration and PayGoal wallet management, deployed on AWS ECS.",
+        "Created React‑based admin panels and mobile apps in React Native for managing wallet transactions and client operations.",
+        "Improved deployment processes by introducing automated tests and Docker containers."
       ]
     }
   ],
@@ -105,34 +119,31 @@
       "keywords": [
         "Node",
         "Java",
-        "SQL",
+        "SQL & NoSQL (MongoDB)",
         "Docker",
-        "MongoDB",
-        "AWS SQS",
-        "AWS ECS",
-        "Jest",
-        "Serverless Lambdas"
+        "AWS (SQS, ECS, EKS, Lambda)",
+        "Kubernetes",
+        "CI/CD (GitHub Actions, Jenkins)"
       ]
     },
     {
       "name": "Frontend",
       "level": "Master",
       "keywords": [
-        "HTML",
-        "CSS",
-        "SASS",
-        "Jest",
-        "Storybook",
-        "Typescript",
         "React",
-        "React Native"
+        "React Native",
+        "HTML5 & CSS3",
+        "Sass",
+        "TypeScript",
+        "Jest",
+        "Storybook"
       ]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Conversational (B2)"
+      "fluency": "Conversational"
     },
     {
       "language": "Spanish",
